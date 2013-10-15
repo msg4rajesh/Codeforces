@@ -49,12 +49,12 @@ void prepare(int p, int now)
     }
 }
 
-int go[6];
+long long go[6];
 
 void out()
 {
     for (int i = 0; i < 5; i++)
-        cout << go[i] << '+';
+        cout << go[i] << ' ';
     cout << go[5] << endl;
 }
 
